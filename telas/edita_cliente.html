@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doguito Petshop | Atualizar cliente</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../assets/css/base/base.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cabecalho.css">
+    <link rel="stylesheet" href="../assets/css/componentes/cartao.css">
+    <link rel="stylesheet" href="../assets/css/cadastra_cliente.css">
+    <link rel="stylesheet" href="../assets/css/componentes/inputs.css">
+    <link rel="stylesheet" href="../assets/css/componentes/botao.css">
+</head>
+<body>
+    <header class="cabecalho container">
+        <img src="../assets/img/doguitoadm.svg" alt="Logo Doguito" class="cabecalho__logo">
+        <nav>
+            <ul class="cabecalho__lista-navegacao">
+                <li class="cabecalho__link"><a href="#">Dashboard</a></li>
+                <li class="cabecalho__link"><a href="#">Produtos</a></li>
+                <li class="cabecalho__link"><a href="lista_cliente.html">Clientes </a></li>
+                <li class="cabecalho__link"><a href="#">Pets</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container flex flex--centro flex--coluna">
+        <section class="cartao cadastro">
+            <h1 class="cartao__titulo">Edição</h1>
+            <form class="flex flex--coluna" data-form>
+                <div class="input-container">
+                    <input name="nome" id="nome" class="input" type="text" placeholder="Nome" required data-tipo="nome">
+                    <label class="input-label" for="nome">Nome</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="email" id="email" class="input" type="text" placeholder="email" required data-tipo="email">
+                    <label class="input-label" for="email" >email</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="cpf" id="cpf" class="input" type="text" placeholder="cpf" required data-tipo="cpf">
+                    <label class="input-label" for="cpf" >CPF</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="nascimento" id="nascimento" class="input" type="date" data-tipo="dataNasc" placeholder="Data de nascimento" required>
+                    <label class="input-label" for="nascimento">Data de nascimento</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+                </div>
+                <div class="input-container">
+                    <input name="cep" id="cep" class="input" type="text" placeholder="cep" required data-tipo="cep">
+                    <label class="input-label" for="cep" >CEP</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="cidade" id="cidade" class="input" type="text" placeholder="cidade" required data-tipo="cidade">
+                    <label class="input-label" for="cidade" >Cidade</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+                <div class="input-container">
+                    <input name="estado" id="estado" class="input" type="text" placeholder="estado" required data-tipo="estado">
+                    <label class="input-label" for="estado" >Estado</label>
+                    <span class="input-mensagem-erro">Esse campo não pode estar vazio</span>
+                </div>
+
+                <button type="submit"class="botao">
+                Editar Cliente
+            </button>
+            </form>
+        </section>
+    </main>
+    
+</body>
+<script type="module" src="../controller/atualiza-clientes-controller.js"></script>
+<script type="module"src="../service/app.js"></script>
+</html>

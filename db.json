@@ -1,0 +1,34 @@
+{
+  "profile": [
+    {
+      "nome": "batata frita",
+      "email": "teste@teste.com.br",
+      "cpf": "123",
+      "cep": "38960000",
+      "cidade": "Pratinha",
+      "estado": "MG",
+      "dataNasc": "2021-04-01",
+      "id": 1
+    },
+    {
+      "nome": "Joaninha",
+      "email": "teste@teste.com",
+      "cpf": "12332112332",
+      "cep": "38970000",
+      "cidade": "Campos Altos",
+      "estado": "MG",
+      "dataNasc": "2021-04-01",
+      "id": 2
+    },
+    {
+      "nome": "Jonathan 2",
+      "email": "Jonathan@email.com",
+      "cpf": "12332143234",
+      "cep": "38960000",
+      "cidade": "Pratinha",
+      "estado": "MG",
+      "dataNasc": "2021-04-01",
+      "id": 3
+    }
+  ]
+}
