@@ -1,5 +1,6 @@
 # Doguito-Pet-Shop
 <ul>Site Pet-Shop Doguito</ul>
+<ul>Realização de CRUD</ul>
 <ul>Criado Utilizando HTML, CSS e Javascript</ul>
 
 # Ferramentas utilizadas
@@ -8,6 +9,7 @@
 <ul>CSS</ul>
 <ul>Javascript</ul>
 <ul>BrowserSync ou LiveServer</ul>
+<ul>Json Server</ul>
 
 # Consolidando Conhecimento Sobre
 <ul>Selecionar elementos com <em><strong>querySelector</strong></em></ul>
@@ -15,6 +17,8 @@
 <ul>Customizar mensagens de Erro.</ul>
 <ul>Buscar CEP através da API <strong>ViaCEP</strong></ul>
 <ul>Validação de formato de campos com Regex</ul>
+<ul>Tratamento de Erros com Try e Catch</ul>
+<ul>Funções Assíncronas</ul>
 
 # Obervação
 
